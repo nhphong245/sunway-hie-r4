@@ -1,0 +1,70 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cs-ethnic-sunway-hie",
+  "url": "https://www.sunwaymedical.com/fhir/cs/ethnic-sunway-hie",
+  "version": "1",
+  "name": "Code System Ethnic (SunWay HIE)",
+  "title": "Code System Ethnic (SunWay HIE)",
+  "status": "active",
+  "date": "2024-10-10T04:04:09.5621857+00:00",
+  "compositional": false,
+  "content": "complete",
+  "count": 11,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "01",
+      "display": "Batak",
+      "definition": "Batak"
+    },
+    {
+      "code": "02",
+      "display": "Caucasian",
+      "definition": "Caucasian"
+    },
+    {
+      "code": "03",
+      "display": "Ceylonese",
+      "definition": "Ceylonese"
+    },
+    {
+      "code": "04",
+      "display": "Chinese",
+      "definition": "Chinese"
+    },
+    {
+      "code": "05",
+      "display": "Eurasian",
+      "definition": "Eurasian"
+    },
+    {
+      "code": "06",
+      "display": "Indian",
+      "definition": "Indian"
+    },
+    {
+      "code": "07",
+      "display": "Malay",
+      "definition": "Malay"
+    },
+    {
+      "code": "08",
+      "display": "Pakistani",
+      "definition": "Pakistani"
+    },
+    {
+      "code": "09",
+      "display": "Punjabi / Singh",
+      "definition": "Punjabi / Singh"
+    },
+    {
+      "code": "99",
+      "display": "Others",
+      "definition": "Others"
+    }
+  ]
+}

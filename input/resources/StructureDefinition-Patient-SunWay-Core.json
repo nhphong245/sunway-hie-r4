@@ -1,0 +1,63 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "PatientSunWayHIE",
+  "url": "https://www.sunwaymedical.com/fhir/sd/patient-sunway-hie",
+  "version": "0.0.1-Pilot",
+  "name": "PatientSunWayHIE",
+  "title": "Patient (SunWayHIE)",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://fhir.hie.moh.gov.my/StructureDefinition/Patient-my-core",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.extension:resident-status-ext",
+        "path": "Patient.extension",
+        "sliceName": "resident-status-ext",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.sunwaymedical.com/fhir/sd/ex-resident-status-sunway-hie-extend"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Patient.extension:audit-ext",
+        "path": "Patient.extension",
+        "sliceName": "audit-ext",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.sunwaymedical.com/fhir/sd/audit-sunway-hie-extend"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Patient.extension:ethnic-ext",
+        "path": "Patient.extension",
+        "sliceName": "ethnic-ext",
+        "short": "Extension of the ethnic",
+        "definition": "Extension of the ethnic",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.sunwaymedical.com/fhir/sd/ex-ethnic-sunway-hie-extend"
+            ]
+          }
+        ],
+        "isModifier": false
+      }
+    ]
+  }
+}

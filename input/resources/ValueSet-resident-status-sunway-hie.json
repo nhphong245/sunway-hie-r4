@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-resident-status-sunway-hie",
+  "url": "https://www.sunwaymedical.com/fhir/vs/resident-status-sunway-hie",
+  "name": "ValueSetResidentStatusSunWayHIE",
+  "title": "ValueSet Resident Status (SunWay HIE)",
+  "status": "active",
+  "date": "2024-10-10T04:04:09.5621857+00:00",
+  "description": "Patient's Resident status",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.sunwaymedical.com/fhir/cs/resident-status-sunway-hie"
+      }
+    ]
+  }
+}

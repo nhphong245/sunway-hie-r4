@@ -1,0 +1,108 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "extension-audit-sunway-hie-ext",
+  "url": "https://www.sunwaymedical.com/fhir/sd/audit-sunway-hie-extend",
+  "version": "1.0.0",
+  "name": "ExtensionAuditSunWayHIEExtend",
+  "title": "Extension Audit (SunWay HIE) Extend-based on Audit(MY CORE)",
+  "status": "active",
+  "date": "2024-02-12T04:04:09.5621857+00:00",
+  "description": "Extension of the last updated time",
+  "purpose": "Record audit on the last updated time",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    },
+    {
+      "type": "element",
+      "expression": "Encounter"
+    },
+    {
+      "type": "element",
+      "expression": "Location"
+    },
+    {
+      "type": "element",
+      "expression": "PractitionerRole"
+    },
+    {
+      "type": "element",
+      "expression": "Organization"
+    },
+    {
+      "type": "element",
+      "expression": "Schedule"
+    },
+    {
+      "type": "element",
+      "expression": "Slot"
+    },
+    {
+      "type": "element",
+      "expression": "Appointment"
+    },
+    {
+      "type": "element",
+      "expression": "Practitioner"
+    },
+    {
+      "type": "element",
+      "expression": "HealthcareService"
+    },
+    {
+      "type": "element",
+      "expression": "MedicationKnowledge"
+    },
+    {
+      "type": "element",
+      "expression": "Medication"
+    },
+    {
+      "type": "element",
+      "expression": "Condition"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension:lastRecordedDate",
+        "path": "Extension.extension",
+        "sliceName": "lastRecordedDate",
+        "short": "Last date the record was recorded",
+        "definition": "Last date the record was recorded",
+        "comment": "Last date the record was recorded"
+      },
+      {
+        "id": "Extension.extension:lastRecordedDate.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "lastRecordedDate"
+      },
+      {
+        "id": "Extension.extension:lastRecordedDate.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://www.sunwaymedical.com/fhir/sd/audit-sunway-hie-extend"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

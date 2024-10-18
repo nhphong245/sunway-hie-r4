@@ -1,0 +1,189 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+  
+	
+	<a name="summary"> </a>
+	<h3 id="summary">Các Core Profile</h3>
+
+	<table class="grid">
+	  <thead>
+		<tr>
+		  <th>Cá nhân</th>
+		  <th>Tổ chức</th>
+		  <th>Quản lý bệnh nhân</th>
+		  <th>Tài liệu</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td><a href="#">Patient</a></td>
+		  <td><a href="#">Location</a></td>
+		  <td><a href="#">Encounter</a></td>
+		  <td><a href="#">DocumentReference</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Practitioner</a></td>
+		  <td><a href="#">Organisation</a></td>
+		  <td> </td>
+		  <td><a href="#">Composition</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">PractitionerRole</a></td>
+		  <td> </td>
+		  <td> </td>
+		  <td> </td>
+		</tr>
+	  </tbody>
+	</table>
+
+	<table class="grid">
+	  <thead>
+		<tr>
+		  <th>Tổng quan</th>
+		  <th>Chẩn đoán</th>
+		  <th>Dược</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td><a href="#">AllergyIntolerance</a></td>
+		  <td><a href="#">DiagnosticReport</a></td>
+		  <td><a href="#">Medication</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Condition</a></td>
+		  <td><a href="#">Observation</a></td>
+		  <td><a href="#">MedicationRequest</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Procedure</a></td>
+		  <td><a href="#">Specimen</a></td>
+		  <td><a href="#">MedicationStatement</a></td>
+		</tr>
+		<tr>
+		  <td> </td>
+		  <td> </td>
+		  <td><a href="#">Immunization</a></td>
+		</tr>
+	  </tbody>
+	</table>
+	
+	<a name="vital-signs"> </a>
+	<h3 id="vital-signs">Các chỉ số sinh tồn</h3>
+
+	<p>Tham khảo <a href="#">National Early Warning Score (NEWS)</a></p>
+
+	<table class="grid">
+	  <thead>
+		<tr>
+		  <th>NEWS</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<tr>
+		  <td><a href="#">ACVPU (level of consciousness: - Alert (Tỉnh táo) - Voice (Gọi tỉnh / Lẫn lộn) - Pain (Nhéo đau tỉnh) - Unresponsive (Hôn mê))</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Huyết áp</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Nhịp thở</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Inspired Oxygen</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">SpO2</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Nhịp thở</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Nhiệt độ</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Cân nặng</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Chiều cao</a></td>
+		</tr>
+		<tr>
+		  <td><a href="#">Đường kính xương đầu chẩm (dành cho trẻ em)</a></td>
+		</tr>
+	  </tbody>
+	</table>
+
+	<a name="total"> </a>
+	<h3 id="total">Chi tiết thông tin các Profile</h3>
+
+	<tr><td><a href="#">ACVPU-Observation-1</a> </td><td><p>This profile is used to carry alert, new-onset or worsening confusion, voice, pain, and unresponsiveness observations for a patient.</p>
+	</td></tr>
+	<tr><td><a href="#">AllergyIntolerance-1</a> </td><td><p>This AllergyIntolerance Resource records Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.</p>
+	</td></tr>
+	<tr><td><a href="#">BloodPressure-Observation-1</a> </td><td><p>A Vital Signs profile to carry blood pressure information that contains at least one component for systolic and/or diastolic pressure.</p>
+	</td></tr>
+	<tr><td><a href="#">CareTeam-1</a> </td><td><p>The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.</p>
+	</td></tr>
+	<tr><td><a href="#">Composition-1</a> </td><td><p>A set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement.</p>
+	</td></tr>
+	<tr><td><a href="#">Condition-1</a> </td><td><p>This Condition resource records detailed information about conditions or diagnoses recognised by a clinician.</p>
+	</td></tr>
+	<tr><td><a href="#">DiagnosticReport-1</a> </td><td><p>A test report for National Pathology that contains data on the pathology tests performed on patients specimens populated by the performing organisation.</p>
+	</td></tr>
+	<tr><td><a href="#">DocumentReference-1</a> </td><td><p>The DocumentReference resource is used to describe a document that is made available to a healthcare system.</p>
+	</td></tr>
+	<tr><td><a href="#">Encounter-1</a> </td><td><p>The encounter resource represents an encounter between a care professional and the patient (or patient's record).</p>
+	</td></tr>
+	<tr><td><a href="#">EpisodeOfCare-1</a> </td><td><p>An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time.</p>
+	</td></tr>
+	<tr><td><a href="#">FamilyMemberHistory-1</a> </td><td><p>Significant health events and conditions for a person related to the patient relevant in the context of care for the patient.</p>
+	</td></tr>
+	<tr><td><a href="#">HealthcareService-1</a> </td><td><p>HealthCareService Profile</p>
+	</td></tr>
+	<tr><td><a href="#">HeartRate-Observation-1</a> </td><td><p>A Vital Signs profile to carry a patient's heart rate or pulse.</p>
+	</td></tr>
+	<tr><td><a href="#">Immunization-1</a> </td><td><p>This Immunization Resource describes the event of a patient being administered a vaccination or a record of a vaccination as reported by a patient, a clinician or another party, and may include vaccine reaction information and what vaccination protocol was followed.</p>
+	</td></tr>
+	<tr><td><a href="#">InspiredOxygen-Observation-1</a> </td><td><p>An Observation resource used to carry observables relating to inspired oxygen for a patient</p>
+	</td></tr>
+	<tr><td><a href="#">Location-1</a> </td><td><p>The Location resource provides information and details on the physical location and the services provided.</p>
+	</td></tr>
+	<tr><td><a href="#">Medication-1</a> </td><td><p>This Medication Resource is primarily used for the identification and definition of a medication.</p>
+	</td></tr>
+	<tr><td><a href="#">MedicationAdministration-1</a> </td><td><p>Describes the event of a patient consuming or otherwise being administered a medication.</p>
+	</td></tr>
+	<tr><td><a href="#">MedicationDispense-1</a> </td><td><p>Indicates that a medication product is to be or has been dispensed for a named person/patient.</p>
+	</td></tr>
+	<tr><td><a href="#">MedicationRequest-1</a> </td><td><p>This MedicationRequest Resource represents an order for both supply of the medication and the instructions for administration of the medication to a patient.</p>
+	</td></tr>
+	<tr><td><a href="#">MedicationStatement-1</a> </td><td><p>This MedicationStatement Resource is a record of a medication that is being consumed by a patient.</p>
+	</td></tr>
+	<tr><td><a href="#">Observation-1</a> </td><td><p>The Observation resource is used for tracking the current and historical observations that have been made for a patient.</p>
+	</td></tr>
+	<tr><td><a href="#">Organization-1</a> </td><td><p>The Organization resource represents the organisation that employs the healthcare professional.</p>
+	</td></tr>
+	<tr><td><a href="#">OxygenSaturation-Observation-1</a> </td><td><p>A Vital Signs profile to carry oxygen saturation information.</p>
+	</td></tr>
+	<tr><td><a href="#">Patient-1</a> </td><td><p>The patient resource represents the patient involved in the provision of healthcare related services.</p>
+	</td></tr>
+	<tr><td><a href="#">Practitioner-1</a> </td><td><p>The Practitioner resource represents the healthcare professional directly or indirectly involved in the provision of healthcare related services.</p>
+	</td></tr>
+	<tr><td><a href="#">PractitionerRole-1</a> </td><td><p>The PractitionerRole resource represents a specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.</p>
+	</td></tr>
+	<tr><td><a href="#">ProblemList-Condition-1</a> </td><td><p>This Condition resource records detailed information about conditions recognised by a clinician.</p>
+	</td></tr>
+	<tr><td><a href="#">Diagnosis-Condition-1</a> </td><td><p>This Condition resource records detailed information about diagnosis recognised by a clinician.</p>
+	</td></tr>
+	<tr><td><a href="#">Procedure-1</a> </td><td><p>An action that is or was performed on a patient.</p>
+	</td></tr>
+	<tr><td><a href="#">ProcedureRequest-1</a> </td><td><p>Procedure Request</p>
+	</td></tr>
+	<tr><td><a href="#">RelatedPerson-1</a> </td><td><p>Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.</p>
+	</td></tr>
+	<tr><td><a href="#">RespiratoryRate-Observation-1</a> </td><td><p>A Vital Signs profile to carry a patient's respiratory rate.</p>
+	</td></tr>
+	<tr><td><a href="#">RiskAssessment-1</a> </td><td><p>An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.</p>
+	</td></tr>
+	<tr><td><a href="#">Specimen-1</a> </td><td><p>Specimen</p>
+	</td></tr>
+</div>

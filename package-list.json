@@ -1,0 +1,13 @@
+{
+ "package-id" : "hl7.fhir.sunwway.hie.r4",
+ "title" : "SunWay HIE IG profies (based on HL7 FHIR Release 4.0.1)", 
+ "canonical" : "https://www.sunwaymedical.com/fhir/IG/hl7.fhir.sunway.hie.r4", 
+ "introduction" : "SunWay HIE IG profies",
+ "list" : [{
+  "version" : "0.0.1-pilot",
+  "desc" : "Continuous Integration Build (latest in version control)",
+  "path" : "http://hl7.org/fhir/ig/sunwayhie-r4",
+  "status" : "ci-build",
+  "current" : true
+ }]
+}

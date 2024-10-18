@@ -1,0 +1,51 @@
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">Index</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <!-- <a href="spec.html">General Information</a> -->
+		<a href="profile.html">Profiles</a>
+		<a href="#">Extensions</a>
+		<!-- <a href="qd_831.html">QĐ số 831/QĐ-BYT</a>
+		<a href="qd_4210.html">QĐ số 4210/QĐ-BYT</a>
+		<a href="#">TT số 56/2017/TT-BYT</a> -->
+      </li>
+    </ul>
+  </li>  
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="#">CodeSystems</a>
+		<a href="#">ValueSets</a>
+		<a href="#">ConceptMaps</a>
+		<a href="#">NamingSystems</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="artifacts.html">Artifact Index</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a target="_blank" href="{{site.data.fhir.path}}index.html">HL7 FHIR Standard<!-- <img src="external.png" style="text-align: baseline"/> --></a>
+      </li>
+      <!-- <li>
+        <a href="validation.html">Validation tools</a>
+      </li>	 	  
+      <li>
+        <a href="#">FHIR Service</a>
+      </li>	 --> 
+      <!-- <li>
+        <a href="downloads.html">Downloads</a>
+      </li> -->
+    </ul>
+  </li>
+</ul>      

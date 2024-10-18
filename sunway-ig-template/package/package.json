@@ -1,0 +1,13 @@
+﻿{
+  "name": "sunway-ig-template",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "SunWay HIE IG base template",
+  "author": "http://hl7.org/fhir",
+  "canonical": "http://fhir.org/templates/sunway-ig-template",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+  },
+  "version": "0.1.0"
+}

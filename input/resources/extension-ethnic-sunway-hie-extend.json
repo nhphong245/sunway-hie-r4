@@ -1,0 +1,52 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "extension-ethnic-sunway-hie-ext",
+  "url": "https://www.sunwaymedical.com/fhir/sd/ex-ethnic-sunway-hie-extend",
+  "version": "1.0.0",
+  "name": "ExtensionEthnicSunWayHIEExtend",
+  "title": "Extension Ethnic (SunWay HIE) - Extended version",
+  "status": "active",
+  "date": "2024-02-12T04:04:09.5621857+00:00",
+  "description": "Extension of the extended ethnic",
+  "purpose": "Record the patient's ethnic in SunWay context",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Extension of the extended resident status",
+        "definition": "Extension of the extended resident status"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://www.sunwaymedical.com/fhir/sd/ex-ethnic-sunway-hie-extend"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.sunwaymedical.com/fhir/vs/ethnic-sunway-hie"
+        }
+      }
+    ]
+  }
+}

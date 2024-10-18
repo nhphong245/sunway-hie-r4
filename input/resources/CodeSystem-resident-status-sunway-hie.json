@@ -1,0 +1,45 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cs-resident-status-sunway-hie",
+  "url": "https://www.sunwaymedical.com/fhir/cs/resident-status-sunway-hie",
+  "version": "1",
+  "name": "Code System Resident Status (SunWay HIE)",
+  "title": "Code System Resident Status (SunWay HIE)",
+  "status": "active",
+  "date": "2024-10-10T04:04:09.5621857+00:00",
+  "compositional": false,
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "01",
+      "display": "Resident",
+      "definition": "Resident"
+    },
+    {
+      "code": "02",
+      "display": "Health tourist",
+      "definition": "Health tourist"
+    },
+    {
+      "code": "03",
+      "display": "Foreigner",
+      "definition": "Foreigner"
+    },
+    {
+      "code": "04",
+      "display": "Tourist",
+      "definition": "Tourist"
+    },
+    {
+      "code": "99",
+      "display": "Others",
+      "definition": "Others"
+    }
+  ]
+}
