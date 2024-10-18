@@ -3,15 +3,15 @@
   
 	
 	<a name="summary"> </a>
-	<h3 id="summary">Các Core Profile</h3>
+	<h3 id="summary">MY Core Profile</h3>
 
 	<table class="grid">
 	  <thead>
 		<tr>
-		  <th>Cá nhân</th>
-		  <th>Tổ chức</th>
-		  <th>Quản lý bệnh nhân</th>
-		  <th>Tài liệu</th>
+		  <th>Individuals</th>
+		  <th>Entities</th>
+		  <th>Management</th>
+		  <th>Documents</th>
 		</tr>
 	  </thead>
 	  <tbody>
@@ -39,9 +39,9 @@
 	<table class="grid">
 	  <thead>
 		<tr>
-		  <th>Tổng quan</th>
-		  <th>Chẩn đoán</th>
-		  <th>Dược</th>
+		  <th>Clinical Summary</th>
+		  <th>Diagnostics</th>
+		  <th>Medications</th>
 		</tr>
 	  </thead>
 	  <tbody>
@@ -69,25 +69,20 @@
 	</table>
 	
 	<a name="vital-signs"> </a>
-	<h3 id="vital-signs">Các chỉ số sinh tồn</h3>
-
-	<p>Tham khảo <a href="#">National Early Warning Score (NEWS)</a></p>
+	<h3 id="vital-signs">Vitail Signs</h3>
 
 	<table class="grid">
 	  <thead>
 		<tr>
-		  <th>NEWS</th>
+		  <th>Vitail Signs</th>
 		</tr>
 	  </thead>
 	  <tbody>
 		<tr>
-		  <td><a href="#">ACVPU (level of consciousness: - Alert (Tỉnh táo) - Voice (Gọi tỉnh / Lẫn lộn) - Pain (Nhéo đau tỉnh) - Unresponsive (Hôn mê))</a></td>
+		  <td><a href="#">Blood Pressure</a></td>
 		</tr>
 		<tr>
-		  <td><a href="#">Huyết áp</a></td>
-		</tr>
-		<tr>
-		  <td><a href="#">Nhịp thở</a></td>
+		  <td><a href="#">Respiratory Rate</a></td>
 		</tr>
 		<tr>
 		  <td><a href="#">Inspired Oxygen</a></td>
@@ -96,25 +91,22 @@
 		  <td><a href="#">SpO2</a></td>
 		</tr>
 		<tr>
-		  <td><a href="#">Nhịp thở</a></td>
+		  <td><a href="#">Heart Rate</a></td>
 		</tr>
 		<tr>
-		  <td><a href="#">Nhiệt độ</a></td>
+		  <td><a href="#">Body Temperature</a></td>
 		</tr>
 		<tr>
-		  <td><a href="#">Cân nặng</a></td>
+		  <td><a href="#">Body Weight</a></td>
 		</tr>
 		<tr>
-		  <td><a href="#">Chiều cao</a></td>
-		</tr>
-		<tr>
-		  <td><a href="#">Đường kính xương đầu chẩm (dành cho trẻ em)</a></td>
+		  <td><a href="#">Body Height</a></td>
 		</tr>
 	  </tbody>
 	</table>
 
-	<a name="total"> </a>
-	<h3 id="total">Chi tiết thông tin các Profile</h3>
+	<a name="all-profile"> </a>
+	<h3 id="all-profile">All profiles</h3>
 
 	<tr><td><a href="#">ACVPU-Observation-1</a> </td><td><p>This profile is used to carry alert, new-onset or worsening confusion, voice, pain, and unresponsiveness observations for a patient.</p>
 	</td></tr>
