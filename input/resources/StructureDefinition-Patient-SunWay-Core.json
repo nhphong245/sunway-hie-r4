@@ -57,6 +57,20 @@
           }
         ],
         "isModifier": false
+      },
+      {
+        "id": "Patient.address.extension:state-ext",
+        "path": "Patient.address.extension",
+        "sliceName": "state-ext",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.sunwaymedical.com/fhir/sd/ex-state-sunway-hie-extend"
+            ]
+          }
+        ],
+        "isModifier": false
       }
     ]
   }

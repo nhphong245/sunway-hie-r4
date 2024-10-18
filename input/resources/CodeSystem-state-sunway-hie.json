@@ -1,0 +1,265 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cs-state-sunway-hie",
+  "url": "https://www.sunwaymedical.com/fhir/cs/state-sunway-hie",
+  "version": "1",
+  "name": "Code System State (SunWay HIE)",
+  "title": "Code System State (SunWay HIE)",
+  "status": "active",
+  "date": "2024-10-10T04:04:09.5621857+00:00",
+  "compositional": false,
+  "content": "complete",
+  "count": 11,
+  "concept": [
+    {
+      "code": "00",
+      "display": "No Information",
+      "definition": "No Information"
+    },
+    {
+      "code": "01",
+      "display": "Aceh",
+      "definition": "Aceh"
+    },
+    {
+      "code": "02",
+      "display": "Bali",
+      "definition": "Bali"
+    },
+    {
+      "code": "03",
+      "display": "Banteen",
+      "definition": "Banteen"
+    },
+    {
+      "code": "04",
+      "display": "Central Java",
+      "definition": "Central Java"
+    },
+    {
+      "code": "05",
+      "display": "East Java",
+      "definition": "East Java"
+    },
+    {
+      "code": "06",
+      "display": "East Kalimantan",
+      "definition": "East Kalimantan"
+    },
+    {
+      "code": "07",
+      "display": "Guangdong",
+      "definition": "Guangdong"
+    },
+    {
+      "code": "08",
+      "display": "Indonesia",
+      "definition": "Indonesia"
+    },
+    {
+      "code": "09",
+      "display": "Jakarta",
+      "definition": "Jakarta"
+    },
+    {
+      "code": "10",
+      "display": "Jakarta Special capital region",
+      "definition": "Jakarta Special capital region"
+    },
+    {
+      "code": "11",
+      "display": "Jakarta Utara",
+      "definition": "Jakarta Utara"
+    },
+    {
+      "code": "12",
+      "display": "Jambi",
+      "definition": "Jambi"
+    },
+    {
+      "code": "13",
+      "display": "Jawa Barat",
+      "definition": "Jawa Barat"
+    },
+    {
+      "code": "14",
+      "display": "Jawa Timur",
+      "definition": "Jawa Timur"
+    },
+    {
+      "code": "15",
+      "display": "Johor",
+      "definition": "Johor"
+    },
+    {
+      "code": "16",
+      "display": "Kedah",
+      "definition": "Kedah"
+    },
+    {
+      "code": "17",
+      "display": "Kelantan",
+      "definition": "Kelantan"
+    },
+    {
+      "code": "18",
+      "display": "Kota Palembang",
+      "definition": "Kota Palembang"
+    },
+    {
+      "code": "19",
+      "display": "Kuala Lumpur",
+      "definition": "Kuala Lumpur"
+    },
+    {
+      "code": "20",
+      "display": "Labuan",
+      "definition": "Labuan"
+    },
+    {
+      "code": "21",
+      "display": "Malacca",
+      "definition": "Malacca"
+    },
+    {
+      "code": "22",
+      "display": "Melaka",
+      "definition": "Melaka"
+    },
+    {
+      "code": "23",
+      "display": "Negeri Sembilan",
+      "definition": "Negeri Sembilan"
+    },
+    {
+      "code": "24",
+      "display": "North Sulawesi",
+      "definition": "North Sulawesi"
+    },
+    {
+      "code": "25",
+      "display": "North Sumatra",
+      "definition": "North Sumatra"
+    },
+    {
+      "code": "26",
+      "display": "Pahang",
+      "definition": "Pahang"
+    },
+    {
+      "code": "27",
+      "display": "Penang",
+      "definition": "Penang"
+    },
+    {
+      "code": "28",
+      "display": "Perak",
+      "definition": "Perak"
+    },
+    {
+      "code": "29",
+      "display": "Perlis",
+      "definition": "Perlis"
+    },
+    {
+      "code": "30",
+      "display": "Pulau Pinang",
+      "definition": "Pulau Pinang"
+    },
+    {
+      "code": "31",
+      "display": "Putra Jaya",
+      "definition": "Putra Jaya"
+    },
+    {
+      "code": "32",
+      "display": "Riau",
+      "definition": "Riau"
+    },
+    {
+      "code": "33",
+      "display": "Riau Islands",
+      "definition": "Riau Islands"
+    },
+    {
+      "code": "34",
+      "display": "Sabah",
+      "definition": "Sabah"
+    },
+    {
+      "code": "35",
+      "display": "Sarawak",
+      "definition": "Sarawak"
+    },
+    {
+      "code": "36",
+      "display": "Selangor",
+      "definition": "Selangor"
+    },
+    {
+      "code": "37",
+      "display": "Selangor Darul Ehsan",
+      "definition": "Selangor Darul Ehsan"
+    },
+    {
+      "code": "38",
+      "display": "South Sulawesi",
+      "definition": "South Sulawesi"
+    },
+    {
+      "code": "39",
+      "display": "Special region of Yogykarta",
+      "definition": "Special region of Yogykarta"
+    },
+    {
+      "code": "40",
+      "display": "Sumatera Utara",
+      "definition": "Sumatera Utara"
+    },
+    {
+      "code": "41",
+      "display": "Terengganu",
+      "definition": "Terengganu"
+    },
+    {
+      "code": "42",
+      "display": "United States",
+      "definition": "United States"
+    },
+    {
+      "code": "43",
+      "display": "W.P. Kuala Lumpur",
+      "definition": "W.P. Kuala Lumpur"
+    },
+    {
+      "code": "44",
+      "display": "W.P. Labuan",
+      "definition": "W.P. Labuan"
+    },
+    {
+      "code": "45",
+      "display": "West Java",
+      "definition": "West Java"
+    },
+    {
+      "code": "46",
+      "display": "West Kalimantan",
+      "definition": "West Kalimantan"
+    },
+    {
+      "code": "47",
+      "display": "West Sumantra",
+      "definition": "West Sumantra"
+    },
+    {
+      "code": "48",
+      "display": "Wilayah Persekutuan",
+      "definition": "Wilayah Persekutuan"
+    },
+    {
+      "code": "99",
+      "display": "Others",
+      "definition": "Others"
+    }
+  ]
+}

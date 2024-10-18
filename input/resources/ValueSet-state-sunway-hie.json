@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "id": "value-set-state-sunway-hie",
+  "url": "https://www.sunwaymedical.com/fhir/vs/state-sunway-hie",
+  "name": "ValueSetStateSunWayHIE",
+  "title": "ValueSet State (SunWay HIE)",
+  "status": "active",
+  "date": "2024-10-10T04:04:09.5621857+00:00",
+  "description": "Common Countries' states used in SunWay eco-system",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.sunwaymedical.com/fhir/cs/state-sunway-hie"
+      }
+    ]
+  }
+}
