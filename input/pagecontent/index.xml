@@ -42,4 +42,22 @@ implementation of a Health Information Exchange (HIE) system</h3>
 	</table>
 	</p>
 	
+	<p>
+	<a name="dependencies"> </a>
+	<h3>Dependencies</h3>
+	{% include dependency-table.xhtml %}
+	</p>
+	
+	<p>
+	<a name="crossversion"> </a>
+	<h3>Cross Version Analysis</h3>
+	{% include cross-version-analysis.xhtml %}
+	</p>
+	
+	<p>
+	<a name="globalprofiles"> </a>
+	<h3>Global Profiles</h3>
+	{% include globals-table.xhtml %}
+	</p>
+	
 </div>

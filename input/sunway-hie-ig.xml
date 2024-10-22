@@ -3,8 +3,8 @@
   <id value="myhie.v4"/>
   <url value="https://www.sunwaymedical.com/fhir/IG/hl7.fhir.sunway.hie.r4"/>
   <version value="0.0.1-pilot"/>
-  <name value="ImplementationGuide for SunWay Health Information Exchange (SunWay HIE) project"/>
-  <title value="ImplementationGuide for SunWay Health Information Exchange (SunWay HIE) project"/>
+  <name value="ImplementationGuide for Sunway Health Information Exchange (Sunway HIE) project"/>
+  <title value="ImplementationGuide for Sunway Health Information Exchange (Sunway HIE) project"/>
   <status value="active"/>
   <experimental value="false"/>
   <publisher value="FPT Corporation"/>
