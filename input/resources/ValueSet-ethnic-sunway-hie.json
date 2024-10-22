@@ -2,11 +2,11 @@
   "resourceType": "ValueSet",
   "id": "value-set-ethnic-sunway-hie",
   "url": "https://www.sunwaymedical.com/fhir/vs/ethnic-sunway-hie",
-  "name": "ValueSetEthnicSunWayHIE",
-  "title": "ValueSet Ethnic (SunWay HIE)",
+  "name": "ValueSetEthnicSunwayHIE",
+  "title": "ValueSet Ethnic (Sunway HIE)",
   "status": "active",
   "date": "2024-10-10T04:04:09.5621857+00:00",
-  "description": "Common ethnic used in SunWay eco-system",
+  "description": "Common ethnic used in Sunway eco-system",
   "compose": {
     "include": [
       {

@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "PatientSunWayHIE",
+  "id": "PatientSunwayHIE",
   "url": "https://www.sunwaymedical.com/fhir/sd/patient-sunway-hie",
   "version": "0.0.1-Pilot",
-  "name": "PatientSunWayHIE",
-  "title": "Patient (SunWayHIE)",
+  "name": "PatientSunwayHIE",
+  "title": "Patient (SunwayHIE)",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "resource",
